@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Объявление типа документа, указывает браузеру отображать страницу в стандарте HTML5 -->
+<html lang="en">
+<!-- Корневой элемент HTML с указанием языка страницы - английский -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Устанавливает кодировку документа в UTF-8, чтобы корректно отображались символы -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Делает сайт адаптивным, устанавливая ширину области просмотра равной ширине устройства -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Заставляет браузеры использовать последнюю версию движка рендеринга -->
+    <title>Document</title>
+    <!-- Подключение Bootstrap CSS — популярного CSS-фреймворка для быстрой адаптивной верстки и готовых стилей -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Подключение собственного файла стилей для дополнительных или переопределяющих правил -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Подключение шрифта Courgette с Google Fonts для красивого текста -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+    <!-- Подключение локального файла Font Awesome для иконок -->
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <!-- контейнер Bootstrap, центрирует и ограничивает ширину контента -->
+        <div class="row max-height align-items-center text-center">
+        <!-- строка Bootstrap с вертикальным выравниванием по центру и центрированием текста -->
+            <div class="col">
+            <!-- колонка Bootstrap, занимает всю ширину в этой строке -->
+                <button class="btn btn-outline-secondary">Click Me!</button>
+                <!-- кнопка стилизованная через класс Bootstrap (btn) с обводкой (outline, secondary) -->
+            </div> 
+        </div>       
+    </div>
+    
+    <!-- Подключение jQuery, популярной JS-библиотеки, которую часто используют вместе с Bootstrap -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- Подключение JavaScript Bootstrap, обеспечивает работу интерактивных компонентов -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Подключение собственного JS-файла, где можно добавить свои скрипты -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
